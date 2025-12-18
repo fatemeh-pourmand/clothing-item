@@ -1,0 +1,22 @@
+👕 Smart Closet Assistant
+
+
+A Python-based assistant that helps busy users choose suitable outfits quickly.
+
+It suggests daily clothing combinations based on schedule, weather, and personal style to reduce decision fatigue.
+
+
+
+🚀 Features
+Daily outfit suggestions
+
+Personalized style logic
+
+Time- and weather-aware decisions
+
+Simple, extendable OOP design
+
+
+
+🛠 Tech Stack
+Python
