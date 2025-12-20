@@ -45,5 +45,6 @@ class styleEngine:
         self.weather_info= weather_info
     def show_info(self):
         for key, value in self.__dict__.items():
-            print(f"{key}: {value}")
+            info += f"{key} : {value}\n"
+        return info
 
