@@ -9,29 +9,32 @@ class User:
     def show_info(self):
         for key, value in self.__dict__.items():
             print(f"{key}: {value}")
-class Closet:
-    def __init__(self, User):
-        self.User= User
-        self.stats= {
-            'shirts':20,
-            'dress pants':25,
-            'skirt':80,
-            'shoes':{
-                'sneakers':100,'loafers':50,'sandals':40,'high heels':150,'flip flop':33,'boots':70
-                }
-            "hats": {"cap":20, "straw hat":12, "cowboy hat":12, "baseball cap":12, "beret":10, "floppy":9, "cloch":},
-            'vest':15,
-            'dress':300,
-            'socks':60,
-            'scarf':40,
-            'swimsuit':50,
-            'umbrella':30,
-            'shorts':100,
-            'bag':250,
-            'hoodie':200,
-            'bikini':400,
-            'straw hat':55,
-            'pants':{'bootcut':50, 'mom style':29, 'baggy':30, 'boyfriend':12, 'leggings':100}
-        
-        }
-        
+closet_items = {
+'shirts': {
+'t-shirt': {'count': 5, 'colors': ['red', 'blue', 'white']},
+'shirt': {'count': 3, 'colors': ['white', 'black', 'blue']},
+'polo': {'count': 2, 'colors': ['green', 'navy']}
+},
+'pants': {
+'jeans': {'count': 3, 'colors': ['blue', 'black']},
+'trousers': {'count': 2, 'colors': ['black', 'gray']}
+},
+'shoes': {
+'sneakers': {'count': 2, 'colors': ['white', 'black']},
+'boots': {'count': 1, 'colors': ['brown']},
+'loafers': {'count': 1, 'colors': ['black']}
+},
+'hats': {
+'cap': {'count': 20, 'colors': ['red', 'blue', 'black']},
+'straw hat': {'count': 12, 'colors': ['beige', 'brown']},
+'cowboy hat': {'count': 12, 'colors': ['brown', 'black']},
+'baseball cap': {'count': 12, 'colors': ['white', 'blue', 'black']},
+'beret': {'count': 10, 'colors': ['red', 'black']},
+'floppy': {'count': 9, 'colors': ['beige', 'white']},
+'cloch': {'count': 6, 'colors': ['black', 'gray']}
+},
+'vests': {
+'casual vest': {'count': 5, 'colors': ['black', 'gray']},
+'formal vest': {'count': 3, 'colors': ['navy', 'black']}
+}
+}       
