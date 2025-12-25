@@ -47,4 +47,6 @@ closet_items = {
     def show_info(self):
         for key, value in self.__dict__.items():
             info += f"{key}: {value}\n"
+
+
          
